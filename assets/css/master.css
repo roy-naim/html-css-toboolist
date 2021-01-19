@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+header {
+  padding-left: 20px;
+  background-color: white;
+  height: 60px;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+body {
+  background-color: #F6F8F9;
+}
+
+.small-white {
+  border: 500px black;
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  margin: 50px auto;
+}
+
+.add-task {
+  display: inline-block;
+  background-color: #47ADF1;
+  padding: 5px 15px;
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.add-section {
+  display: inline-block;
+  background-color: white;
+  padding: 5px 5px;
+  border-width: 1px;
+  border-color: #C5CBD0;
+  border-radius: 5px;
+  color: #C5CBD0;
+  cursor: pointer;
+}
+
+.big-white {
+  background-color: white;
+  width: 50%;
+  height: 700px;
+  padding-top: 1px;
+  margin: 50px auto;
+}
