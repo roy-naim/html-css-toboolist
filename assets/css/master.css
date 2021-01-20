@@ -24,7 +24,6 @@ body {
 }
 
 .small-white {
-  border: 500px black;
   background-color: white;
   width: 50%;
   height: 50px;
@@ -47,8 +46,7 @@ body {
   display: inline-block;
   background-color: white;
   padding: 5px 5px;
-  border-width: 1px;
-  border-color: #C5CBD0;
+  border: 1px solid #C5CBD0;
   border-radius: 5px;
   color: #C5CBD0;
   cursor: pointer;
