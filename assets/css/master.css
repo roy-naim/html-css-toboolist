@@ -23,11 +23,12 @@ body {
   background-color: #F6F8F9;
 }
 
-.small-white {
+.white-boxes {
   background-color: white;
   width: 50%;
-  height: 50px;
+  height: 45px;
   margin: 50px auto;
+  padding: 8px 9px 10px 11px;
 }
 
 .header-box {
@@ -55,10 +56,4 @@ body {
   cursor: pointer;
 }
 
-.big-white {
-  background-color: white;
-  width: 50%;
-  height: 700px;
-  padding-top: 1px;
-  margin: 50px auto;
-}
+/*--- nota: padding: 10px(top) 11px(right) 12px(bottom) 13px(left); ---*/
