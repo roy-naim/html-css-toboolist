@@ -30,6 +30,9 @@ body {
   margin: 50px auto;
 }
 
+.header-box {
+
+}
 .add-task {
   display: inline-block;
   background-color: #47ADF1;
