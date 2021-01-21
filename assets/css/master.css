@@ -27,7 +27,7 @@ body {
 .white-boxes {
   background-color: white;
   width: 50%;
-  height: 100px;
+  height: 750px;
   margin: 50px auto;
   padding: 8px 9px 10px 11px;
 } /*--- nota: padding: 10px(top) 11px(right) 12px(bottom) 13px(left); ---*/
@@ -57,11 +57,35 @@ body {
   cursor: pointer;
 }
 
-.all-list {
-  border: 1px solid #F6F8F9;
+.all-list .new-task:before {
+  content: "\25bc"
 }
+
+.all-list {
+  list-style: none;
+  border: 1px solid #F6F8F9;
+  margin: 5px -15px;
+}
+
 .new-task {
   margin: 40px 30px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.new-task-list {
+  list-style: none;
+  margin-top: 5px
+}
+
+li .checked:before {
+  content: '\2714';
+  font-size: 15px;
+  font-weight: 100;
+}
+
+li .not-checked:before {
+  content: '\2718';
+  font-size: 15px;
+  font-weight: 100;
 }
