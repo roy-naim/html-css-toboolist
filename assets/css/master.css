@@ -85,6 +85,10 @@ body {
 
 li .checked:before {
   content: '\2714';
+  color: green;
+  padding: 3px 3px;
+  border: 1px solid green;
+  border-radius: 50%;
   font-size: 15px;
   font-weight: 100;
 }
@@ -95,6 +99,12 @@ li .checked:before {
 
 li .not-checked:before {
   content: '\2718';
+  color: red;
+  padding: 3px 3px;
+  border: 1px solid red;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 100;
   font-size: 15px;
   font-weight: 100;
 }
