@@ -79,6 +79,13 @@ body {
   margin-top: 5px
 }
 
+.checked {
+  font-weight: normal;
+}
+
+.not-checked {
+  font-weight: normal;
+}
 
 li .checked:before {
   content: '\2714';
