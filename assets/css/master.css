@@ -79,9 +79,6 @@ body {
   margin-top: 5px
 }
 
-.checked {
-  display: inline-block;
-}
 
 li .checked:before {
   content: '\2714';
@@ -93,9 +90,7 @@ li .checked:before {
   font-weight: 100;
 }
 
-.not-checked {
-  display: inline-block;
-}
+
 
 li .not-checked:before {
   content: '\2718';
